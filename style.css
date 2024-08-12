@@ -1,0 +1,76 @@
+html{
+    font-family: 'Gill Sans', 'Gill Sans MT';
+    margin: 0;
+    border: 0;
+    background-color: #e3e3e3;
+}
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+main{
+    overflow: hidden;
+    max-width: 500px;
+    margin-top: 2%;
+}
+
+main .center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0.4rem 2rem 1rem 2rem;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: hsl(0, 0%, 15%);
+}
+#display{
+    font-size: 2rem;
+    padding: 1rem;
+    width: 93.5%;
+    color: #fff;
+    text-align: left;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    border: none;
+    background-color:hsl(0, 0%, 20%);
+}
+
+.number-style:hover{
+    background-color: hsl(0, 0%, 80%)
+}
+.operator-style:hover{
+    background-color: hsl(24, 87%, 40%)
+
+}
+.number-style, .operator-style{
+    border-radius: 100px;
+    height: 4rem;
+    width: 4rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: none;
+    margin: 1rem 0.5rem;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.operator-style{
+    background-color: hsl(24, 87%, 50%)
+}
+
+main #equal-button{
+    width: 9rem;
+}
+
+.numbers{
+    max-width: 16rem;
+}
+
+.operators{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-height: 100%;
+}
