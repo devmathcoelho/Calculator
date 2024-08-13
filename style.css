@@ -60,10 +60,6 @@ main .center{
     background-color: hsl(24, 87%, 50%)
 }
 
-main #equal-button{
-    width: 9rem;
-}
-
 .numbers{
     max-width: 16rem;
 }
